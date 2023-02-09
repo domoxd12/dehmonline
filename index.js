@@ -4,6 +4,7 @@ function passcheck() {
 
 if(document.getElementById('nuke').value != password) {
 alert('ACCESS DENIED!!!!')
+  return false;
 }
 
 if(document.getElementById('nuke').value == password) {
